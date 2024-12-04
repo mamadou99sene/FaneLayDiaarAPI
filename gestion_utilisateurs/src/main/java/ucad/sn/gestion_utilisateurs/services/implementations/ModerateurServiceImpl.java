@@ -1,6 +1,7 @@
 package ucad.sn.gestion_utilisateurs.services.implementations;
 
 import org.springframework.stereotype.Service;
+import ucad.sn.gestion_utilisateurs.entities.Gerant;
 import ucad.sn.gestion_utilisateurs.entities.Moderateur;
 import ucad.sn.gestion_utilisateurs.repositories.ModerateurRepository;
 import ucad.sn.gestion_utilisateurs.services.ModerateurService;
@@ -15,8 +16,8 @@ public class ModerateurServiceImpl implements ModerateurService {
     }
 
     @Override
-    public List<Moderateur> getModerateursByIdGerant(Long idGerant) {
-        List<Moderateur> moderateurs = this.moderateurRepository.getModerateursByGerant(idGerant);
+    public List<Moderateur> getModerateursByIdGerant(Gerant gerant) {
+        List<Moderateur> moderateurs = this.moderateurRepository.findByGerant(gerant);
         return moderateurs;
     }
 }
