@@ -7,4 +7,5 @@ import java.util.List;
 
 public interface ModerateurService {
     List<Moderateur> getModerateursByIdGerant(Gerant gerant);
+    Moderateur getModerateurByid(Long id);
 }

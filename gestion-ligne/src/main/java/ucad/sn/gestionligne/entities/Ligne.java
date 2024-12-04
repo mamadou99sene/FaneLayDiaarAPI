@@ -1,11 +1,9 @@
 package ucad.sn.gestionligne.entities;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
+import ucad.sn.gestionligne.models.Moderateur;
 
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @Entity
@@ -16,4 +14,7 @@ public class Ligne {
     String depart;
     String arrivee;
     int numero;
+    Long idModerateur;
+    @Transient
+    Moderateur moderateur;
 }
