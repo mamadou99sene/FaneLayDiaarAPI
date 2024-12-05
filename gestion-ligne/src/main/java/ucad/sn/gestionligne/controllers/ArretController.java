@@ -12,7 +12,7 @@ import ucad.sn.gestionligne.services.VehiculeService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/gestion-ligne")
+@RequestMapping("/api/ligne")
 public class ArretController {
     private final ArretService arretService;
     private final LigneService ligneService;
@@ -29,7 +29,7 @@ public class ArretController {
     }
 
     // Opérations pour Ligne
-    @GetMapping("/ligne/moderateur/{idModerateur}")
+    @GetMapping("/moderateur/{idModerateur}")
     public ResponseEntity<Ligne> getLigneByModerateur(@PathVariable Long idModerateur) {
         Ligne ligne = ligneService.getLigneByModerateur(idModerateur);
         return ResponseEntity.ok(ligne);

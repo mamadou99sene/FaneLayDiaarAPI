@@ -5,5 +5,6 @@ import java.util.List;
 
 public interface VehiculeService {
     List<Vehicules> getVehiculesByLigne(Long idLigne);
+    Vehicules saveVehicules(Vehicules vehicules);
 
 }

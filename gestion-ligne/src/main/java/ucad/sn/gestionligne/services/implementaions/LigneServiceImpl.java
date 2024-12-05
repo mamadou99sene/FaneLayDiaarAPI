@@ -24,4 +24,9 @@ public class LigneServiceImpl implements LigneService {
         return ligne;
 
     }
+
+    @Override
+    public Ligne saveLigne(Ligne ligne) {
+        return this.ligneRepository.save(ligne);
+    }
 }

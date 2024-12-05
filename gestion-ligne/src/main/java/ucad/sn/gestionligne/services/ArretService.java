@@ -5,4 +5,5 @@ import java.util.List;
 
 public interface ArretService {
     List<Arret> getArretsByLigne(Long idLigne);
+    Arret saveArret(Arret arret);
 }
