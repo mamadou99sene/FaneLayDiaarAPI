@@ -9,7 +9,7 @@ import ucad.sn.gestion_utilisateurs.services.ModerateurService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/utilisateurs")
 public class ModerateurController {
     private ModerateurService moderateurService;
 
