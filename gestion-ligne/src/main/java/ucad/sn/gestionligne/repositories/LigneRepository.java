@@ -5,4 +5,5 @@ import org.springframework.stereotype.Repository;
 import ucad.sn.gestionligne.entities.Ligne;
 @Repository
 public interface LigneRepository extends JpaRepository<Ligne,Long> {
+    Ligne findByIdModerateur(Long idModerateur);
 }
