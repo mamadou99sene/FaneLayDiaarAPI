@@ -8,7 +8,7 @@ import java.util.List;
 
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @Entity
-@NoArgsConstructor @AllArgsConstructor @Builder @Setter @Getter
+@NoArgsConstructor @AllArgsConstructor @Setter @Getter @Builder
 public class Gerant {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;

@@ -18,4 +18,9 @@ public class GerantServiceImpl implements GerantService {
     public List<Gerant> getAllGerant() {
         return this.gerantRepository.findAll();
     }
+
+    @Override
+    public Gerant saveGerant(Gerant gerant) {
+        return this.gerantRepository.save(gerant);
+    }
 }

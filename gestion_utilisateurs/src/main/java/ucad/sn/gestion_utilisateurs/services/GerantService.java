@@ -6,4 +6,5 @@ import java.util.List;
 
 public interface GerantService {
     List<Gerant> getAllGerant();
+    Gerant saveGerant(Gerant gerant);
 }

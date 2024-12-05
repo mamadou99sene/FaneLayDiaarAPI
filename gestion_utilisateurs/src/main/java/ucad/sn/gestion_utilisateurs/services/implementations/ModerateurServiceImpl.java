@@ -33,4 +33,9 @@ public class ModerateurServiceImpl implements ModerateurService {
         }
         throw new RuntimeException("Le moderateur n'existe pas");
     }
+
+    @Override
+    public Moderateur saveModerateur(Moderateur moderateur) {
+       return this.moderateurRepository.save(moderateur);
+    }
 }
