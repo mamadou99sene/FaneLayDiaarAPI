@@ -1,13 +1,7 @@
 package ucad.sn.gestion_utilisateurs;
 
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
-import ucad.sn.gestion_utilisateurs.entities.Gerant;
-import ucad.sn.gestion_utilisateurs.entities.Moderateur;
-import ucad.sn.gestion_utilisateurs.services.GerantService;
-import ucad.sn.gestion_utilisateurs.services.ModerateurService;
 
 @SpringBootApplication
 public class GestionUtilisateursApplication {
