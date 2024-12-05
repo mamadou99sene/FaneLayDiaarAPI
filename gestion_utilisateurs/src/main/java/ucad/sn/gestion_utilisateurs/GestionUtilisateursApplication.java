@@ -34,6 +34,14 @@ public class GestionUtilisateursApplication {
                             .password("123")
                             .gerant(gerant)
                     .build());
+            moderateurService.saveModerateur(Moderateur.builder()
+                    .email("saliou@gmail.com")
+                    .telephone("771230909")
+                    .nom("Ly")
+                    .prenom("Saliou")
+                    .password("123")
+                    .gerant(gerant)
+                    .build());
 
         };
     }

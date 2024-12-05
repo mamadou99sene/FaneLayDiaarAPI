@@ -1,5 +1,6 @@
 package ucad.sn.gestion_utilisateurs.entities;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
@@ -16,6 +17,7 @@ public class Gerant {
     String email;
     String telephone;
     String password;
+    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     @Transient
     @OneToMany(mappedBy = "gerant", cascade = CascadeType.ALL)
     List<Moderateur> moderateurs;
