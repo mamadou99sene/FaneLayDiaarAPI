@@ -1,0 +1,16 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: gestion-utilisateurs
+          uri: http://localhost:8081
+          predicates:
+            - Path=/api/utilisateurs/**
+        - id: gestion-ligne
+          uri: http://localhost:8082
+          predicates:
+            - Path=/api/ligne/**
+  application:
+    name: gateway-service
+server:
+  port: 8888
