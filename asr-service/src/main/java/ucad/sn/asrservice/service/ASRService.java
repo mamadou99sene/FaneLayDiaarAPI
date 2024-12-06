@@ -7,7 +7,7 @@ import java.io.IOException;
 public interface ASRService {
 
     // Méthode pour traiter l'audio
-    String transcribeAudio(MultipartFile audioFile);
+/*    String transcribeAudio(MultipartFile audioFile);*/
 
 
 

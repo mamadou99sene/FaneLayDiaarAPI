@@ -15,7 +15,6 @@ import ucad.sn.asrservice.annotations.IaAgent;
 
 import java.io.IOException;
 @IaAgent
-@Component
 public class OpenaiAgent {
     private ChatClient chatClient;
 

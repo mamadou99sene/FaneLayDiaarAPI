@@ -14,17 +14,17 @@ import java.util.List;
 
 @Service
 public class ASRServiceImpl implements ASRService {
-    private final OpenAiService openAiService;
+ /*   private final OpenAiService openAiService;
     private static final String WHISPER_MODEL = "whisper-1";
     private static final List<String> SUPPORTED_FORMATS = Arrays.asList(
             "flac", "m4a", "mp3", "mp4", "mpeg", "mpga", "oga", "ogg", "wav", "webm"
     );
 
-    public ASRServiceImpl(OpenAiService openAiService) {
-        this.openAiService = openAiService;
-    }
+    public ASRServiceImpl() {
+        this.openAiService = new OpenAiService("");
+    }*/
 
-    @Override
+   /* @Override
     public String transcribeAudio(MultipartFile audioFile) {
         validateAudioFile(audioFile);
         File convertedFile = null;
@@ -79,5 +79,5 @@ public class ASRServiceImpl implements ASRService {
         if (file != null && file.exists()) {
             file.delete();
         }
-    }
+    }*/
 }
