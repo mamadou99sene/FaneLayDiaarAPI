@@ -1,4 +1,4 @@
-package ucad.sn.gestionligne.services.implementations;
+package ucad.sn.gestionligne.services.implementation;
 
 import org.springframework.stereotype.Service;
 import ucad.sn.gestionligne.entities.Ligne;

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0e7a044e-fbb0-4d36-a938-bc8ebda00739" name="Changes" comment="asr vocale">
+      <change beforePath="$PROJECT_DIR$/gestion-ligne/src/main/java/ucad/sn/gestionligne/services/implementaions/VehiculeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-ligne/src/main/java/ucad/sn/gestionligne/services/implementaions/VehiculeServiceImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="AnnotationType" />
+        <option value="Record" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2plUibHCouqfIFKrXsNA2rLeNxv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/FIS-TS/IdeaProjects/FaneLayeDiaarAPI/asr-service",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "spring.configuration.checksum": "0fa690ce7472081348306f927565f321",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ucad.sn.gestionligne.services.implementaions" />
+      <recent name="ucad.sn.gestion_utilisateurs.services.implementations" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\FIS-TS\IdeaProjects\FaneLayeDiaarAPI\gateway-service\src\main\resources" />
+      <recent name="C:\Users\FIS-TS\IdeaProjects\FaneLayeDiaarAPI\gestion-ligne\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GestionLigneApplication">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ucad.sn.Main" />
+      <module name="FaneLayeDiaarAPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ucad.sn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AsrServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="asr-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ucad.sn.asrservice.AsrServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="gateway-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ucad.sn.gatewayservice.GatewayServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GestionLigneApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="gestion-ligne" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ucad.sn.gestionligne.GestionLigneApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GestionUtilisateursApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="gestion_utilisateurs" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ucad.sn.gestion_utilisateurs.GestionUtilisateursApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e7a044e-fbb0-4d36-a938-bc8ebda00739" name="Changes" comment="" />
+      <created>1733340287713</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733340287713</updated>
+      <workItem from="1733340288726" duration="4927000" />
+      <workItem from="1733350986534" duration="5314000" />
+      <workItem from="1733356957863" duration="851000" />
+      <workItem from="1733392081297" duration="3750000" />
+      <workItem from="1733395862236" duration="18268000" />
+      <workItem from="1733488376274" duration="5900000" />
+    </task>
+    <task id="LOCAL-00001" summary="services">
+      <option name="closed" value="true" />
+      <created>1733343994140</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733343994140</updated>
+    </task>
+    <task id="LOCAL-00002" summary="gestion utilisateurs">
+      <option name="closed" value="true" />
+      <created>1733344338415</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733344338415</updated>
+    </task>
+    <task id="LOCAL-00003" summary="gestion ligne">
+      <option name="closed" value="true" />
+      <created>1733344418877</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733344418877</updated>
+    </task>
+    <task id="LOCAL-00004" summary="gestion erreur builder">
+      <option name="closed" value="true" />
+      <created>1733398785875</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733398785875</updated>
+    </task>
+    <task id="LOCAL-00005" summary="gestion erreur builder">
+      <option name="closed" value="true" />
+      <created>1733400164143</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733400164143</updated>
+    </task>
+    <task id="LOCAL-00006" summary="configuration gateway">
+      <option name="closed" value="true" />
+      <created>1733401153610</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733401153610</updated>
+    </task>
+    <task id="LOCAL-00007" summary="configuration gateway">
+      <option name="closed" value="true" />
+      <created>1733401963990</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733401963990</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/gestion-ligne" />
+      <path value="$PROJECT_DIR$/gestion_utilisateurs" />
+    </ignored-roots>
+    <MESSAGE value="services" />
+    <MESSAGE value="gestion utilisateurs" />
+    <MESSAGE value="gestion ligne" />
+    <MESSAGE value="gestion erreur builder" />
+    <MESSAGE value="configuration gateway" />
+    <MESSAGE value="asr vocale" />
+    <option name="LAST_COMMIT_MESSAGE" value="asr vocale" />
+  </component>
+</project>
