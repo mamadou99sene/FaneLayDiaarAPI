@@ -12,7 +12,7 @@ import java.util.List;
 
 @Repository
 public interface ArretRepository extends JpaRepository<Arret, Long> {
-    //List<Arret> findByLigne(Ligne ligne);
+
 
     @Query("SELECT a FROM Arret a JOIN LigneArret la ON a.id = la.arret.id WHERE la.ligne = :ligne")
     List<Arret> findByLigneArret(@Param("ligne") Ligne ligne);
