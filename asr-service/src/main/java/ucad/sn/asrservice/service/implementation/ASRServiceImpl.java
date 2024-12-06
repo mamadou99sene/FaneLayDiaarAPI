@@ -1,7 +1,5 @@
 package ucad.sn.asrservice.service.implementation;
 
-import com.theokanning.openai.audio.CreateTranscriptionRequest;
-import com.theokanning.openai.service.OpenAiService;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 import ucad.sn.asrservice.service.ASRService;
