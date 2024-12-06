@@ -1,5 +1,6 @@
 package ucad.sn.gestionligne.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 import lombok.*;
@@ -25,4 +26,8 @@ public class Ligne {
     @Transient
     @OneToMany(mappedBy = "ligne", cascade = CascadeType.ALL)
     List<Vehicules> vehicules;
+
+    @JsonIgnore
+    @OneToMany(mappedBy = "ligne")
+    private List<LigneArret> ligneArrets;
 }

@@ -2,10 +2,16 @@ package ucad.sn.gestionligne.services.implementaions;
 
 import org.springframework.stereotype.Service;
 import ucad.sn.gestionligne.clients.ModerateurRestClient;
+import ucad.sn.gestionligne.entities.Arret;
 import ucad.sn.gestionligne.entities.Ligne;
+import ucad.sn.gestionligne.entities.LigneArret;
 import ucad.sn.gestionligne.models.Moderateur;
 import ucad.sn.gestionligne.repositories.LigneRepository;
 import ucad.sn.gestionligne.services.LigneService;
+
+import java.util.List;
+import java.util.stream.Collectors;
+
 @Service
 public class LigneServiceImpl implements LigneService {
     private LigneRepository ligneRepository;
@@ -28,5 +34,12 @@ public class LigneServiceImpl implements LigneService {
     @Override
     public Ligne saveLigne(Ligne ligne) {
         return this.ligneRepository.save(ligne);
+    }
+    @Override
+    public List<Arret> getArretsByLigneId(Long ligneId) {
+        List<LigneArret> ligneArrets = ligneRepository.findLigneArretsByLigneId(ligneId);
+        return ligneArrets.stream()
+                .map(LigneArret::getArret)
+                .collect(Collectors.toList());
     }
 }
