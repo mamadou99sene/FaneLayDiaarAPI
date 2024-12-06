@@ -34,12 +34,24 @@ public class ArretController {
         Ligne ligne = ligneService.getLigneByModerateur(idModerateur);
         return ResponseEntity.ok(ligne);
     }
-
+    // pour récupérer les arrêts d'une ligne avec LigneArret
+    @GetMapping("/{ligneId}/arrets")
+    public ResponseEntity<List<Arret>> getArretsByLigneId(@PathVariable Long ligneId) {
+        List<Arret> arrets = ligneService.getArretsByLigneId(ligneId);
+        return ResponseEntity.ok(arrets);
+    }
     // Opérations pour Arret
     @GetMapping("/arrets/ligne/{idLigne}")
     public ResponseEntity<List<Arret>> getArretsByLigne(@PathVariable Long idLigne) {
         List<Arret> arrets = arretService.getArretsByLigne(idLigne);
         return ResponseEntity.ok(arrets);
+    }
+
+    //pour récupérer les lignes d'un arrêt
+    @GetMapping("/arrets/{arretId}/lignes")
+    public ResponseEntity<List<Ligne>> getLignesByArret(@PathVariable Long arretId) {
+        List<Ligne> lignes = arretService.getLignesByArret(arretId);
+        return ResponseEntity.ok(lignes);
     }
 
     // Opérations pour Vehicules
