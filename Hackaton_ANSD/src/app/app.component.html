@@ -1,0 +1,110 @@
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fane Laye Diare</title>
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="sidebar">
+  <div class="sidebar-header">
+    <h2>Fane Laye Diar</h2>
+    <button id="toggleSidebar">
+      <i class="fas fa-bars"></i>
+    </button>
+  </div>
+  <nav class="sidebar-nav">
+    <ul>
+      <li>
+        <a class="nav-link" routerLink="" >
+          <i class="fas fa-home"></i>
+          <span>Ligne</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="nav-link" routerLink="moderateur">
+          <i class="fas fa-users"></i>
+          <span>Moderateurs</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="nav-link">
+          <i class="fas fa-cog"></i>
+          <span>Paramètres</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+<router-outlet>
+
+</router-outlet>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  // Graphique des ventes
+  const salesCtx = document.getElementById('salesChart').getContext('2d');
+  new Chart(salesCtx, {
+    type: 'bar',
+    data: {
+      labels: ['Jan', 'Fev', 'Mar', 'Avr', 'Mai'],
+      datasets: [{
+        label: 'Ventes',
+        data: [4000, 3000, 2000, 2780, 1890],
+        backgroundColor: 'rgba(106, 90, 205, 0.7)',
+        borderColor: 'rgba(106, 90, 205, 1)',
+        borderWidth: 1
+      }, {
+        label: 'Visiteurs',
+        data: [2400, 1398, 9800, 3908, 4800],
+        backgroundColor: 'rgba(32, 178, 170, 0.7)',
+        borderColor: 'rgba(32, 178, 170, 1)',
+        borderWidth: 1
+      }]
+    },
+    options: {
+      responsive: true,
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      }
+    }
+  });
+
+  // Graphique de croissance des revenus
+  const revenueCtx = document.getElementById('revenueChart').getContext('2d');
+  new Chart(revenueCtx, {
+    type: 'line',
+    data: {
+      labels: ['Jan', 'Fev', 'Mar', 'Avr', 'Mai'],
+      datasets: [{
+        label: 'Revenus',
+        data: [4000, 3000, 2000, 2780, 1890],
+        borderColor: 'rgba(106, 90, 205, 1)',
+        backgroundColor: 'rgba(106, 90, 205, 0.2)',
+        tension: 0.4
+      }]
+    },
+    options: {
+      responsive: true,
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      }
+    }
+  });
+
+  // Gestion du toggle de la sidebar
+  const sidebar = document.querySelector('.sidebar');
+  const toggleButton = document.getElementById('toggleSidebar');
+
+  toggleButton.addEventListener('click', () => {
+    sidebar.classList.toggle('collapsed');
+  });
+</script>
+</body>
+</html>
+
+

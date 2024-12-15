@@ -5,6 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e7a044e-fbb0-4d36-a938-bc8ebda00739" name="Changes" comment="asr vocale">
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/Models/Lignes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/Models/Moderateurs.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/apiConfig/Apiconfig.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/app/details-ligne/details-ligne.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/app/details-ligne/details-ligne.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/app/details-ligne/details-ligne.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/app/details-ligne/details-ligne.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/app/gerants/gerants.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/app/gerants/gerants.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/app/gerants/gerants.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/app/gerants/gerants.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/app/login/login.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/app/login/login.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/app/login/login.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/app/login/login.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/app/moderateur/moderateur.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/app/moderateur/moderateur.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/app/moderateur/moderateur.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/app/moderateur/moderateur.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/app/services/gerants.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/app/services/gerants.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/app/services/lignes.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/app/services/lignes.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/app/services/moderateur.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/app/services/moderateur.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/assets/js/mesFonctons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackaton_ANSD/tsconfig.spec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,36 +86,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/FIS-TS/IdeaProjects/FaneLayeDiaarAPI/asr-service",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
-    "spring.configuration.checksum": "0fa690ce7472081348306f927565f321",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/FIS-TS/IdeaProjects/FaneLayeDiaarAPI&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;64e77649e776194c6c8381ec76868f9d&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ucad.sn.gestionligne.services.implementaions" />
       <recent name="ucad.sn.gestion_utilisateurs.services.implementations" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\FIS-TS\IdeaProjects\FaneLayeDiaarAPI" />
       <recent name="C:\Users\FIS-TS\IdeaProjects\FaneLayeDiaarAPI\gateway-service\src\main\resources" />
       <recent name="C:\Users\FIS-TS\IdeaProjects\FaneLayeDiaarAPI\gestion-ligne\src\main\resources" />
     </key>
@@ -136,7 +182,10 @@
       <workItem from="1733356957863" duration="851000" />
       <workItem from="1733392081297" duration="3750000" />
       <workItem from="1733395862236" duration="18268000" />
-      <workItem from="1733488376274" duration="11014000" />
+      <workItem from="1733488376274" duration="13408000" />
+      <workItem from="1733576087349" duration="3007000" />
+      <workItem from="1733588551381" duration="998000" />
+      <workItem from="1733830590796" duration="74000" />
     </task>
     <task id="LOCAL-00001" summary="services">
       <option name="closed" value="true" />
